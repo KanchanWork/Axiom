@@ -15,6 +15,10 @@ public class Base
 	    WebDriver driver= new ChromeDriver(options);
 	    driver.get("http://www.rightchoicetailor.com/");
 	    driver.manage().window().maximize();
+
+
+
+
 		
 	    driver.manage().timeouts().implicitlyWait(Duration.ofMillis(2000));
 
